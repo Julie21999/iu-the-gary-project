@@ -1,2 +1,160 @@
-objectid,filename,title,display_template,format,latitude,longitude,date,subject,location,creator,description
-cooley1,cooley_fieldtrip_log_1.jpeg,Cooley Fieldtrip Log from July 1976,image,image/jpeg,,,1976-07-02,Field log;,"Gary, Indiana",Cooley,"A field log from Cooley's meeting with ""Dr. Dorson and other members of the Gary Project""."
+objectid,filename,title,display_template,format,latitude,longitude,date,subject,location,creator,description,parentid
+1,cooley_fieldtrip_log_1.jpeg,Cooley Fieldtrip Log from July 1976,image,image/jpeg,,,1976-07-02,Field log;,"Gary, Indiana",Gilbert Cooley,"A field log from Cooley's meeting with ""Dr. Dorson and other members of the Gary Project"".",
+2,,Cooley Field Logs (July 1976),,multiple,,,1976-07,Field log; Gallery;,"Gary, Indiana",Gilbert Cooley,"Written notes from Cooley of his various field trips within the Gary area. This includes the following: date of trip, tapes recorded, whether or not photographs were taken, an optional description of photographs taken, and any notes of interest.",
+3,image0068.jpg,,,image/jpeg,,,,,,,,2
+4,image0070.jpg,,,image/jpeg,,,,,,,,2
+5,image0071.jpg,,,image/jpeg,,,,,,,,2
+6,image0072.jpg,,,image/jpeg,,,,,,,,2
+7,image0073.jpg,,,image/jpeg,,,,,,,,2
+8,,Cooley Field Report,,multiple,,,1976-08-09,Field log; Field report; Gallery,"Gary, Indiana",Gilbert Cooley,"Typed report of field work completed by Cooley, submitted to Dr. Dorson for the ""Research in Folklore"" course.",
+9,image0074.jpg,,,image/jpeg,,,,,,,,8
+10,image0075.jpg,,,image/jpeg,,,,,,,,8
+11,image0076.jpg,,,image/jpeg,,,,,,,,8
+12,image0077.jpg,,,image/jpeg,,,,,,,,8
+13,image0078.jpg,,,image/jpeg,,,,,,,,8
+14,image0079.jpg,,,image/jpeg,,,,,,,,8
+15,image0080.jpg,,,image/jpeg,,,,,,,,8
+16,image0081.jpg,,,image/jpeg,,,,,,,,8
+17,image0082.jpg,,,image/jpeg,,,,,,,,8
+18,image0083.jpg,,,image/jpeg,,,,,,,,8
+19,image0084.jpg,,,image/jpeg,,,,,,,,8
+20,image0085.jpg,,,image/jpeg,,,,,,,,8
+21,image0086.jpg,,,image/jpeg,,,,,,,,8
+22,image0087.jpg,,,image/jpeg,,,,,,,,8
+23,image0088.jpg,,,image/jpeg,,,,,,,,8
+24,image0089.jpg,,,image/jpeg,,,,,,,,8
+25,image0090.jpg,,,image/jpeg,,,,,,,,8
+26,image0091.jpg,,,image/jpeg,,,,,,,,8
+27,,Cooley Field Logs (May 1976),,multiple,,,1976-05,Field log; Gallery;,"Gary, Indiana",Gilbert Cooley,"Written notes from Cooley of his various field trips within the Gary area. This includes the following: date of trip, tapes recorded, whether or not photographs were taken, an optional description of photographs taken, and any notes of interest.",
+28,image0092.jpg,,,image/jpeg,,,,,,,,27
+29,image0093.jpg,,,image/jpeg,,,,,,,,27
+30,image0094.jpg,,,image/jpeg,,,,,,,,27
+31,image0095.jpg,,,image/jpeg,,,,,,,,27
+32,image0096.jpg,,,image/jpeg,,,,,,,,27
+33,image0097.jpg,,,image/jpeg,,,,,,,,27
+34,image0098.jpg,,,image/jpeg,,,,,,,,27
+35,image0099.jpg,,,image/jpeg,,,,,,,,27
+36,image0100.jpg,,,image/jpeg,,,,,,,,27
+37,image0101.jpg,,,image/jpeg,,,,,,,,27
+38,image0102.jpg,,,image/jpeg,,,,,,,,27
+39,image0103.jpg,,,image/jpeg,,,,,,,,27
+40,image0104.jpg,,,image/jpeg,,,,,,,,27
+41,image0105.jpg,,,image/jpeg,,,,,,,,27
+42,image0106.jpg,,,image/jpeg,,,,,,,,27
+43,image0107.jpg,,,image/jpeg,,,,,,,,27
+44,image0108.jpg,,,image/jpeg,,,,,,,,27
+45,image0109.jpg,,,image/jpeg,,,,,,,,27
+46,image0110.jpg,,,image/jpeg,,,,,,,,27
+47,image0111.jpg,,,image/jpeg,,,,,,,,27
+48,image0112.jpg,,,image/jpeg,,,,,,,,27
+49,image0113.jpg,,,image/jpeg,,,,,,,,27
+50,image0114.jpg,,,image/jpeg,,,,,,,,27
+51,image0115.jpg,,,image/jpeg,,,,,,,,27
+52,image0116.jpg,,,image/jpeg,,,,,,,,27
+53,image0117.jpg,Dorson Field Report,,image/jpeg,,,1977-04-19,Project Notes;,"Gary, Indiana",Richard Dorson,"List of Dr. Richard Dorson's students, talkers, and individuals within the Gary community.",
+54,,Newspaper Articles on Mexican Independence Day,,multiple,,,1975-09-14,Newspaper; Gallery;,"East Chicago, Indiana",Philip B. George,Newspaper clippings recounting the celebration of Mexican Independence day in East Chicago,
+55,image0118.jpg,,,image/jpeg,,,,,,,,54
+56,image0119.jpg,,,image/jpeg,,,,,,,,54
+57,image0121.jpg,,,image/jpeg,,,,,,,,54
+58,image0122.jpg,,,image/jpeg,,,,,,,,54
+59,,George Field Logs,,multiple,,,1975,Field log; Gallery;,"Gary, Indiana",Philip B. George,"Written notes from George of his various field trips within the Gary area. This includes the following: date of trip, tapes recorded, whether or not photographs were taken, an optional description of photographs taken, and any notes of interest.",
+60,image0123.jpg,,,image/jpeg,,,,,,,,59
+61,image0125.jpg,,,image/jpeg,,,,,,,,59
+62,image0126.jpg,,,image/jpeg,,,,,,,,59
+63,image0127.jpg,,,image/jpeg,,,,,,,,59
+64,image0128.jpg,,,image/jpeg,,,,,,,,59
+65,image0129.jpg,,,image/jpeg,,,,,,,,59
+66,image0130.jpg,,,image/jpeg,,,,,,,,59
+67,image0131.jpg,,,image/jpeg,,,,,,,,59
+68,image0132.jpg,,,image/jpeg,,,,,,,,59
+69,image0081(2).jpg,Dorson Correspondence,,image/jpeg,,,1978-03-21,"Correspondence; ""Jenny's"" Film","Bloomington, Indiana",Richard Dorson,"Interdepartmental communication between Drs. Dorson and Stockton regarding the production of ""Jenny's.""",
+70,image0083(2).jpg,Dorson Correspondence,,image/jpeg,,,1976-03-22,"Correspondence; ""Jenny's"" Film",Unknown Location,Richard Dorson,Internal communication with the student-ran Audio Visual Center at Indiana University from Dr. Richard Dorson.,
+71,image0084(2).jpg,NEH Grant Approval Correspondence,,image/jpeg,,,1978-04-09,"Correspondence; ""Jenny's"" Film","Washington, D.C.",Stephen Miller,Correspondence between the National Endowment for the Humanities (NEH) and Indiana University.,
+72,image0085(2).jpg,Dorson Correspondence,,image/jpeg,,,1977-01-25,"Correspondence; ""Jenny's"" Film",Unknown Location,Richard Dorson,"Correspondence between Dr. Richard Dorson and the subjects of the film ""Jenny's.""",
+73,image0086(2).jpg,"Film Schedule for ""Jenny's""",,image/jpeg,,,,"Field notes; ""Jenny's"" Film",Unknown Location,Milan Bektesh,"Film schedule and storyboarding for ""Jenny's"".",
+74,image0088(2).jpg,George Correspondence,,image/jpeg,,,1976-09-02,"Correspondence; ""Jenny's"" Film",Unknown Location,Philip George,"Correspondence between Philip George and Inta Carpenter, assistant director of the Folklore Institute.",
+75,image0089(2).jpg,"Film Layout Proposal for ""Jenny's""",,image/jpeg,,,1975-08,"""Jenny's"" Film","Bloomington, Indiana",S. R. Sherman,"A proposed film layout for the upcoming film ""Jenny's"", including screen times, transitions, and individual scene contents.",
+76,image0090(2).jpg,"Bill of Materials for ""Jenny's"" Film",,image/jpeg,,,1975-08,"""Jenny's"" Film","Bloomington, Indiana",S. R. Sherman,"A bill of materials outlining the necessary equipment for the production of the ""Jenny's"" film in Gary, Indiana, including justifications for certain costs.",
+77,image0091(2).jpg,"Initial Reactions to ""Jenny's"" Film",,image/jpeg,,,,"""Jenny's"" Film",Unknown Location,Gilbert Cooley,"Some brief notes on initial thoughts & reactions towards ""Jenny's"" and some ideas on how it could be improved.",
+78,image0092(2).jpg,Agenda for Region Project,,image/jpeg,,,,"""Jenny's"" Film",Unknown Location,Unknown,"An agenda of remaining tasks to prepare for the showing of ""Jenny's"" at the Hammond International Culture Festival.",
+79,image0093(2).jpg,Notes on Gary Project Meeting with Philip Stockton,,image/jpeg,,,1976-03-16,"""Jenny's"" Film",Unknown Location,Unknown,"Notes on additional costs for the production of the film ""Jenny's"" from a meeting between an unknown individual and Philip Stockton. Included are descriptions of costs for specific needs, such as the printing of the film and cinematographers.",
+80,,"Transcript from ""Jenny's"" Film 1st Cut",,multiple,,,,"""Jenny's"" Film; Transcripts","Gary, Indiana",Loralyn Whitney,"A transcription from the first cut of the film ""Jenny's"".",
+81,image0134.jpg,,,image/jpeg,,,,,,,,80
+82,image0135.jpg,,,image/jpeg,,,,,,,,80
+83,image0136.jpg,,,image/jpeg,,,,,,,,80
+84,image0137.jpg,,,image/jpeg,,,,,,,,80
+85,image0138.jpg,,,image/jpeg,,,,,,,,80
+86,image0139.jpg,,,image/jpeg,,,,,,,,80
+87,image0140.jpg,,,image/jpeg,,,,,,,,80
+88,image0141.jpg,,,image/jpeg,,,,,,,,80
+89,image0142.jpg,,,image/jpeg,,,,,,,,80
+90,image0143.jpg,,,image/jpeg,,,,,,,,80
+91,image0144.jpg,,,image/jpeg,,,,,,,,80
+92,image0145.jpg,,,image/jpeg,,,,,,,,80
+93,image0146.jpg,,,image/jpeg,,,,,,,,80
+94,image0147.jpg,,,image/jpeg,,,,,,,,80
+95,image0148.jpg,,,image/jpeg,,,,,,,,80
+96,image0149.jpg,,,image/jpeg,,,,,,,,80
+97,image0150.jpg,,,image/jpeg,,,,,,,,80
+98,image0151.jpg,,,image/jpeg,,,,,,,,80
+99,image0152.jpg,,,image/jpeg,,,,,,,,80
+100,image0153.jpg,,,image/jpeg,,,,,,,,80
+101,,"Transcript from ""Jenny's"" Film 2nd Cut",,multiple,,,,"""Jenny's"" Film; Transcripts","Gary, Indiana",Loralyn Whitney,"A transcription from the second cut of the film ""Jenny's"".",
+102,image0154.jpg,,,image/jpeg,,,,,,,,101
+103,image0155.jpg,,,image/jpeg,,,,,,,,101
+104,image0156.jpg,,,image/jpeg,,,,,,,,101
+105,image0157.jpg,,,image/jpeg,,,,,,,,101
+106,image0158.jpg,,,image/jpeg,,,,,,,,101
+107,image0159.jpg,,,image/jpeg,,,,,,,,101
+108,image0160.jpg,,,image/jpeg,,,,,,,,101
+109,image0161.jpg,,,image/jpeg,,,,,,,,101
+110,image0162.jpg,,,image/jpeg,,,,,,,,101
+111,image0163.jpg,,,image/jpeg,,,,,,,,101
+112,image0164.jpg,,,image/jpeg,,,,,,,,101
+113,image0165.jpg,,,image/jpeg,,,,,,,,101
+114,,"Transcript from ""Jenny's"" Film 3rd Cut",,multiple,,,,"""Jenny's"" Film; Transcripts","Gary, Indiana",Loralyn Whitney,"A transcription from the third cut of the film ""Jenny's"".",
+115,image0178.jpg,,,image/jpeg,,,,,,,,114
+116,image0179.jpg,,,image/jpeg,,,,,,,,114
+117,image0180.jpg,,,image/jpeg,,,,,,,,114
+118,image0181.jpg,,,image/jpeg,,,,,,,,114
+119,image0182.jpg,,,image/jpeg,,,,,,,,114
+120,image0183.jpg,,,image/jpeg,,,,,,,,114
+121,image0184.jpg,,,image/jpeg,,,,,,,,114
+122,image0185.jpg,,,image/jpeg,,,,,,,,114
+123,,Calumet Region Project Transcript Overview,,multiple,,,,Calumet; Project Overview;,"Gary, Indiana",Unknown,A typed transcription describing the project of gathering urban folklore in the Calumet region of Northwestern Indiana.,
+124,image0193.jpg,,,image/jpeg,,,,,,,,123
+125,image0194.jpg,,,image/jpeg,,,,,,,,123
+126,image0195.jpg,,,image/jpeg,,,,,,,,123
+127,,"Film Poster for ""The Ethnic Response: Parish/Neighborhood Survival""",,multiple,,,,Calumet; Posters,"Baltimore, Maryland",David Peeler,"A film poster for ""The Ethnic Response"", a color documentary about the survival of diaspora neighborhoods in the States.",
+128,image0196.jpg,,,image/jpeg,,,,,,,,127
+129,image0197.jpg,,,image/jpeg,,,,,,,,127
+130,image0198.jpg,List of Products for Folklore Video Production,,image/jpeg,,,,Calumet;,Unknown Location,Unknown,"A list of products for folklore film & documentary production of ethnic neighborhoods in Gary, Indiana.",
+131,image0200.jpg,Help Flyer for Folklore Video Collection,,image/jpeg,,,,Calumet; Notices & Advertisements;,Unknown Location,Unknown,A table of contents and some instructions for usage and care for some video casettes of folklore documentaries.,
+132,image0201.jpg,Table of Contents for a Folklore Documentary,,image/jpeg,,,,Calumet;,Unknown Location,Unknown,A table of contents for a folklore documentary tape.,
+133,image0202.jpg,Carpenter Correspondence,,image/jpeg,,,1977-08-22,Correspondence;,"Bloomington, Indiana",Inta Carpenter,Interdepartmental correspondence between Inta Carpenter of the Folklore department and Ed Moss of the IU News Bureau. The correspondence included materials for the news bureau to put up about an upcoming conference.,
+134,image0204.jpg,Flyer for the Urban Folklore Conference 1977,,image/jpeg,,,1977-08,Notices & Advertisements; Urban Folklore Conference,"Bloomington, Indiana",Unknown,"An informational flyer advertising the upcoming Urban Folklore Conference at the Indiana Memorial Union on the IU campus, set to occur Friday and Saturday, September 2-3, 1977.",
+135,image0205.jpg,Schedule for the Urban Folklore Conference 1977,,image/jpeg,,,1977-08,Notices & Advertisements; Urban Folklore Conference,"Bloomington, Indiana",Unknown,The schedule for the Frangipani room in the Indiana Memorial Union for the 1977 Urban Folklore Conference at IU.,
+136,image0207.jpg,"Announcement for the 1977 Urban Folklore Conference, 1",,image/jpeg,,,1977-08,Notices & Advertisements; Urban Folklore Conference,"Bloomington, Indiana",Richard Dorson,A typed announcement from Dr. Richard Dorson broadcasting news of the upcoming 1977 Urban Folklore Conference at IU.,
+137,image0209.jpg,"Announcement for the 1977 Urban Folklore Conference, 2",,image/jpeg,,,1977-08,Notices & Advertisements; Urban Folklore Conference,"Bloomington, Indiana",Richard Dorson,A typed announcement from Dr. Richard Dorson broadcasting news of the upcoming 1977 Urban Folklore Conference at IU.,
+138,image0210.jpg,Internal Faculty Memo for the 1977 Urban Folklore Conference,,image/jpeg,,,1977-08-11,Notices & Advertisements; Urban Folklore Conference; Correspondence,"Bloomington, Indiana",Richard Dorson,Internal correspondence to faculty members of the IU Folklore department about the upcoming 1977 Urban Folklore Conference at IU.,
+139,image0211.jpg,Memo Addressed to the Urban Studies Committee About 1977 Urban Folklore Conference,,image/jpeg,,,1977-08-11,Notices & Advertisements; Urban Folklore Conference; Correspondence,"Bloomington, Indiana",Richard Dorson,"Memo addressed to the Urban Folklore Committee, which enclosed the announcement of the 1977 Urban Folklore Conference at IU for interested members to RSVP.",
+140,,Transcript of the 1977 Urban Folklore Conference,,multiple,,,1977-09-02,Transcripts; Urban Folklore Conference,"Bloomington, Indiana",Susan Cooper,A transcript of discussions held on the first day of the 1977 Urban Folklore Conference at IU between multiple distinguished attendees.,
+141,image0212.jpg,,,image/jpeg,,,,,,,,140
+142,image0214.jpg,,,image/jpeg,,,,,,,,140
+143,image0215.jpg,,,image/jpeg,,,,,,,,140
+144,image0216.jpg,,,image/jpeg,,,,,,,,140
+145,image0217.jpg,,,image/jpeg,,,,,,,,140
+146,image0218.jpg,,,image/jpeg,,,,,,,,140
+147,image0219.jpg,,,image/jpeg,,,,,,,,140
+148,image0220.jpg,,,image/jpeg,,,,,,,,140
+149,image0221.jpg,,,image/jpeg,,,,,,,,140
+150,image0222.jpg,,,image/jpeg,,,,,,,,140
+151,image0223.jpg,,,image/jpeg,,,,,,,,140
+152,image0224.jpg,,,image/jpeg,,,,,,,,140
+153,image0225.jpg,,,image/jpeg,,,,,,,,140
+154,image0226.jpg,,,image/jpeg,,,,,,,,140
+155,image0227.jpg,,,image/jpeg,,,,,,,,140
+156,image0228.jpg,,,image/jpeg,,,,,,,,140
+157,image0229.jpg,,,image/jpeg,,,,,,,,140
+158,image0230.jpg,,,image/jpeg,,,,,,,,140
+159,image0231.jpg,,,image/jpeg,,,,,,,,140
