@@ -1,7 +1,10 @@
 display_name,stub,dropdown_parent
-Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Timeline,/timeline.html
-Data,/data.html
-About Us,/about.html
+Home,/,
+Browse,/browse.html,
+Subjects,/subjects.html,
+Timeline,/timeline.html,
+Data,/data.html,
+About,,
+About the Collection,/about.html,About
+Contact Us,/contact-us.html,About
+Usage & Access,/usage.html,About

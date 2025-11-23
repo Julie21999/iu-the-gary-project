@@ -5,3 +5,9 @@ creator,true,false
 description,true,true
 subject,true,true
 location,true,false
+objectid,false,false
+box,true,true
+folder,true,true
+latitude,false,false
+longitude,false,false
+filename,false,false

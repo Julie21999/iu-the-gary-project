@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 
     Collection Description card.
     Pulls description from _config.yml. Provides btn link to About page if present in the config-nav.
 
     E.G. --> {% include index/description.html %}
-    
-    Options: 
+
+    Options:
 
     - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
     - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
@@ -13,8 +13,9 @@
 {%- endcomment -%}
 <div class="card mb-3">
     <div class="card-body">
-        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Description</{{ include.heading_level | default: 'h2' | strip }}>
-        <p class="card-text">{{ site.description }}</p>
+        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h3">Scope of the Collection</{{ include.heading_level | default: 'h2' | strip }}>
+        <p class="card-text">The content for this project pulls from a certain part of the <a href="https://archives.iu.edu/catalog/InU-Ar-VAB8852">Richard M. Dorson Papers</a> and the work he did on <a href="https://archives.iu.edu/catalog/InU-Ar-VAB8852aspace_VAB8852-00231">The Gary Project</a>. All items may be found within C289 & Boxes 5-11 within the Indiana University Archives and, more specifically, as part of the folklore collection. Dr. Richard Dorson is often cited as the father of American folklore. Over his lifetime, he published a large collection of books and articles dealing with how folklore and culture are tied together. Dorson founded the Indiana University Folklore Institute in 1963, and became the first director and Chairman of the Folklore Department in 1978, making his work extremely relevant to both the field of folklore and Indiana University as a whole.</p>
+        <p>Please utilize this curated selection of materials as a base reference point for your understanding of the broader collection as a whole. Further inquiries into the details of the collection may be directed to the Indiana University Archives to email at <a href="mailto:archives.iu@edu">archives@iu.edu</a> and by phone at 812-855-1127.</p>
         {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}{% if about > 0 %}
         <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
     </div>

@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
 
     Featured Terms button-links.
     This include creates a card with btn links to the Browse page from a set of automatically generated or manually selected terms. Either use the "field" option to auto generate *or* the "featured" option to manually create list of terms.
@@ -23,14 +23,14 @@
 {% assign topTerms = include.featured | split: ";" %}
 {%- else -%}
 
-{% comment %} 
-    Use termsField and termsMax to customize feature 
+{% comment %}
+    Use termsField and termsMax to customize feature
 {% endcomment %}
 {% assign termsField = include.field | default: "subject" %}
 {% assign termsMax = include.max | default: 5 %}
 
-{% comment %} 
-    Liquid below cleans and counts unique terms 
+{% comment %}
+    Liquid below cleans and counts unique terms
 {% endcomment %}
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
@@ -53,7 +53,7 @@
         {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
         <p class="card-text">
             {% for s in topTerms %}
-            <a class="btn btn-sm btn-{{ include.btn-color | default: 'primary' }} m-1" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>{% endfor %}
+            <a class="btn btn-sm btn-{{ include.btn-color | default: 'primary' }} m-1" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip | capitalize }}</a>{% endfor %}
         </p>
     </div>
 </div>

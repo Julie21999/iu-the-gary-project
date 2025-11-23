@@ -1,7 +1,7 @@
-{% comment %} 
+{% comment %}
 
     Image item carousel.
-    This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind. 
+    This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind.
     https://getbootstrap.com/docs/5.1/components/carousel/
 
     E.G. --> {% include index/carousel.html title="Sample Items" height=450 %}
@@ -15,7 +15,7 @@
     - "max" = maximum images selected for slide show (optional, default 9. Do not make too big!)
     - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
     - "btn-text" - the label used in the link btn to view the carousel item (optional, default "View Item")
-    
+
 {%- endcomment -%}
 
 {%- assign image-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.format contains 'image'" -%}
@@ -41,14 +41,14 @@
 <div class="card mb-3">
     {% if include.header %}<{{ include.heading_level | default: 'h2' | strip }} class="card-header h5">{{ include.header }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
     <div class="card-body">
-        {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
-        
+        {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title h3">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{% endif %}
+
         <div id="imageCarousel" class="carousel slide bg-dark rounded mb-3" data-bs-ride="carousel">
             <div id="carouselIndicators" class="carousel-indicators">
-                
+
             </div>
             <div id="carouselInner" class="carousel-inner">
-                
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,7 +59,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-            
+
     </div>
 </div>
 {%- comment -%}
@@ -71,7 +71,7 @@
     var carouselItems = [ {% for c in carousel-items %}[ {{ c.title | jsonify }}, {% if c.youtubeid %}"https://img.youtube.com/vi/{{ c.youtubeid }}/hqdefault.jpg"{% elsif c.filename contains '/' %}{{ c.filename | jsonify }}{% else %}{{ '/objects/' | relative_url | append: c.filename | jsonify }}{% endif %}, {% if c.parentid %}"{{ c.parentid }}#{{ c.objectid }}"{% else %}"{{ c.objectid }}"{% endif %} ]{% unless forloop.last %}, {% endunless %}{% endfor %}];
     /* shuffle items */
     carouselItems.sort(function() { return 0.5 - Math.random() });
- 
+
     /* add items to carousel */
     var carousel = document.getElementById("carouselInner");
     var carouselIndicators = document.getElementById("carouselIndicators");
@@ -83,7 +83,7 @@
         itemImg = carouselItems[i][1];
         // calculate item link
         itemLink = "{{ '/item.html' | relative_url | append: '?id=' }}" + carouselItems[i][2];
-        // create indicator 
+        // create indicator
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
         slide = `<div class="carousel-item py-2${ i == 0 ? ' active' : '' }">
@@ -95,7 +95,7 @@
         slides += slide;
         indicators += indicator;
     }
-    // add indicators to page 
+    // add indicators to page
     carouselIndicators.innerHTML = indicators;
     // add slides to the page
     carousel.innerHTML = slides;
