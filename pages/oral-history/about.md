@@ -16,7 +16,7 @@ Duis tristique metus nisi, in vulputate tortor condimentum et. Suspendisse ornar
     <div class="row justify-content-center g-4">
     {% for card in site.data.oral-history-cards %}
       <div class="col-sm-6 col-12">
-          {% assign dest = card.name | downcase | replace: " ", "-" | prepend: "/oral-history/" | relative_url %}
+          {% assign dest = card.name | downcase | replace: " ", "-" | prepend: "oral-history/" | relative_url %}
           {% include feature/card.html header=card.name text=card.text btn-dest=dest color="red" %}
       </div>
     {% endfor %}
