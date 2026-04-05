@@ -17,7 +17,7 @@
         {% assign transcript = video.title | downcase | replace: " ", "-" | append: ".vtt" %}
         {% assign slug = person.name | append: "/" | append: transcript %}
         <a
-            href="{{ "/assets/data/transcripts/" | append: slug | urlencode }}"
+            href="{{ "/assets/data/transcripts/" | append: slug | urlencode | relativeurl }}"
             class="btn btn-primary w-50 m-3"
             download
             >Get the accessibility-friendly transcript</a
