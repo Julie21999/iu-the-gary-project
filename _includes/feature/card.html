@@ -35,5 +35,5 @@
         {% if include.title %}<{{ include.heading_level | default: 'h2' | strip }} class="card-title">{{ include.title }}</{{ include.heading_level | default: 'h2' | strip }}>{%- endif -%}
         <div class="card-text">{{ include.text | markdownify }}</div>
     </div>
-    {%- if include.btn-dest -%}<a href="{{ include.btn-dest }}" class="btn btn-primary">{%- if include.btn-content -%}{{ include.btn-content }}{% else %}Learn more...{%- endif -%}</a>{%- endif -%}
+    {%- if include.btn-dest -%}<a href="{{ include.btn-dest | relative_url }}" class="btn btn-primary">{%- if include.btn-content -%}{{ include.btn-content }}{% else %}Learn more...{%- endif -%}</a>{%- endif -%}
 </div>
