@@ -3,6 +3,7 @@ date,Date,,,Date
 creator,Creator,,,
 subject,,true
 location,,true
+collection,Collection,true,,Collection
 box,Box,true,,Box
 folder,Folder,true,,Folder
 publisher,Publisher,true,,Publisher

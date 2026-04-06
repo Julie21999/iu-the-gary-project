@@ -11,3 +11,4 @@ folder,true,true
 latitude,false,false
 longitude,false,false
 filename,false,false
+collection,true,true
