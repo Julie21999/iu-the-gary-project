@@ -1,4 +1,4 @@
-{% assign person = site.data.oral-history-videos | find: "name", include.name | first %}
+{% assign person = site.data.oral-history-videos | where: "name", include.person | first%}
 {% assign videos = person.videos %}
 
 {% for video in videos %}
