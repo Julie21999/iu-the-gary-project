@@ -2,10 +2,7 @@
 title: Usage & Access
 layout: about
 permalink: /usage.html
-credits: true
 ---
-
-{% include feature/jumbotron.html objectid="/assets/img/banner.png" %}
 
 #### Please note the following from the Indiana University Archives in relation to the Richard M. Dorson Papers collection and the more specific The Gary Project.
 

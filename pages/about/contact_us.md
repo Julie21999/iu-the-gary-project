@@ -2,10 +2,7 @@
 title: Contact Us
 layout: about
 permalink: /contact-us.html
-credits: true
 ---
-
-{% include feature/jumbotron.html objectid="/assets/img/banner.png" %}
 
 For future information about this curated repository of materials, please contact Julie Stout at [julistou@iu.edu](mailto:julistou@iu.edu).
 
