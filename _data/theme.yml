@@ -10,9 +10,9 @@
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
 featured-image: /assets/img/banner.png
 # optional: add extra padding around collection title for a larger image feature.
-home-title-y-padding: 20em # Default is 8em
+home-title-y-padding: 8.5em # Default is 8em
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: top # Default is center
+home-banner-image-position: bottom # Default is center
 
 ##########
 # ITEM PAGE
@@ -99,6 +99,7 @@ text-color: "#191919"
 link-color: "#0d6efd"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 
 # THEME ICONS [optional!]
 # cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
